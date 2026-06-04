@@ -11,6 +11,8 @@ import com.bumptech.glide.Glide
 import ec.edu.uisek.githubclient.R
 import ec.edu.uisek.githubclient.model.Repository
 
+
+
 class RepoAdapter(private var repos: List<Repository>) : RecyclerView.Adapter<RepoAdapter.RepoViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RepoViewHolder {

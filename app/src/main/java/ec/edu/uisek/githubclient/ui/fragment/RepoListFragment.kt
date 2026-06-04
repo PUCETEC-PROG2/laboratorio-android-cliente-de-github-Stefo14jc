@@ -25,6 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RepoListFragment : Fragment() {
 
+
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: RepoAdapter
     private lateinit var progressBar: ProgressBar

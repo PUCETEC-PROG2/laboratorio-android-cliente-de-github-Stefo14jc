@@ -11,6 +11,8 @@ import ec.edu.uisek.githubclient.ui.fragment.RepoListFragment
 class MainActivity : AppCompatActivity() {
 
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
